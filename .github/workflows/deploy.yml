@@ -12,6 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Install Pango
+        uses: sudo apt-get install -y libsdl-pango-dev 
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Python

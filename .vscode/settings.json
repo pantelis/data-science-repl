@@ -1,0 +1,9 @@
+{
+    "yaml.schemas": {
+        "file:///home/pantelis.monogioudis/.config/Code/User/globalStorage/amazonwebservices.aws-toolkit-vscode/sam.schema.json": [
+            "node/lambda-edge-function/template.yaml"
+        ],
+        "file:///home/pantelis.monogioudis/.vscode/extensions/atlassian.atlascode-2.10.0/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+        "https://json.schemastore.org/github-workflow.json": "file:///home/pantelis.monogioudis/stream/projects/web/sites/courses/data-science-repl/.github/workflows/deploy.yml"
+    }
+}
