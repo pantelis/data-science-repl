@@ -12,8 +12,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - name: Install Pango
-        run: sudo apt-get install -y libsdl-pango-dev 
+      - name: Install Manim prerequisites
+        run: sudo apt-get install -y libcairo2-dev ffmpeg texlive texlive-latex-extra texlive-fonts-extra texlive-latex-recommended texlive-science tipa libpango1.0-dev
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Python
